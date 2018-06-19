@@ -1,7 +1,8 @@
 package cn.jrry.admin.controller;
 
-import java.util.Map;
-
+import cn.jrry.admin.domain.LoginUser;
+import cn.jrry.admin.service.VersionService;
+import com.google.common.collect.Maps;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,10 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.google.common.collect.Maps;
-
-import cn.jrry.admin.domain.LoginUser;
-import cn.jrry.admin.service.VersionService;
+import java.util.Map;
 
 @Controller
 public class LoginController {

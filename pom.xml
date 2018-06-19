@@ -365,5 +365,6 @@
   <modules>
 <!--     <module>jrry-common</module> -->
     <module>jrry-admin</module>
+    <module>jrry-api</module>
   </modules>
 </project>
